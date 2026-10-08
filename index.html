@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="site-header">
@@ -23,9 +26,8 @@
         <div class="hero-content">
             <h1 class="hero-title">This Website is Awesome</h1>
             <p class="hero-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore vitae tempora aspernatur asperiores accusamus dolore quae, exercitationem aut, fuga numquam dignissimos. Asperiores iure neque quisquam dolore reprehenderit saepe molestias eose</p>
-        </div>
-        <div class="hero-button">
-            <a href="">Sign Up</a>
+        
+            <a href="" class="hero-button">Sign Up</a>
         </div>
         <figure class="hero-photo">
             <img src="" alt="place holder for an image">
@@ -33,34 +35,44 @@
     </section>
     <section class="info-section">
         <h2 class="info-title">Some random information</h2>
-        <div info-card>
-          <div class="info-body"></div>
-          <div class="info-text">
-             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro veniam reiciendis est aliquam facere earum, culpa atque, maiores perspiciatis quisquam repudiandae blanditiis? Sed mollitia dignissimos sequi quasi, quod dolore placeat?</p>
-          </div>
-        </div>
-        <div info-card>
-          <div class="info-body"></div>
-          <div class="info-text">
-             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro veniam reiciendis est aliquam facere earum, culpa atque, maiores perspiciatis quisquam repudiandae blanditiis? Sed mollitia dignissimos sequi quasi, quod dolore placeat?</p>
-          </div>
-        </div>
-        <div info-card>
-          <div class="info-body"></div>
-          <div class="info-text">
-             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro veniam reiciendis est aliquam facere earum, culpa atque, maiores perspiciatis quisquam repudiandae blanditiis? Sed mollitia dignissimos sequi quasi, quod dolore placeat?</p>
-          </div>
-        </div>
+        <ul class="info-list">
+            <li class="info-card">
+                <div class="info-body"></div>
+                <p class="info-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro veniam reiciendis est aliquam facere earum, culpa atque, maiores perspiciatis quisquam repudiandae blanditiis? Sed mollitia dignissimos sequi quasi, quod dolore placeat?</p>
+            </li>
+            <li class="info-card">
+                <div class="info-body"></div>
+                <p class="info-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro veniam reiciendis est aliquam facere earum, culpa atque, maiores perspiciatis quisquam repudiandae blanditiis? Sed mollitia dignissimos sequi quasi, quod dolore placeat?</p>
+            </li>
+            <li class="info-card">
+                <div class="info-body"></div>
+                <p class="info-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro veniam reiciendis est aliquam facere earum, culpa atque, maiores perspiciatis quisquam repudiandae blanditiis? Sed mollitia dignissimos sequi quasi, quod dolore placeat?</p>
+            </li>
+            <li class="info-card">
+                <div class="info-body"></div>
+                <p class="info-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro veniam reiciendis est aliquam facere earum, culpa atque, maiores perspiciatis quisquam repudiandae blanditiis? Sed mollitia dignissimos sequi quasi, quod dolore placeat?</p>
+            </li>
+        </ul>
+
+
     </section>
     <section class="quote-section">
-        <div>
-            <p></p>
+        <div class="container-one">
+            <p class="quote-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At laudantium nobis animi? A quae nesciunt non dolor explicabo aperiam praesentium saepe doloremque provident repellat. Debitis consequuntur necessitatibus explicabo est repellat?</p>
+        </div>
+        <div class="container-two">
+            <p class="quote-subtext">-Thor, God of Thunder</p>
         </div>
     </section>
     <section class="cta-section">
-        <div>
-            <p class= "cta-text">Call to action! Its time!</p>
-            <a href="" class="cta-button">Sign Up</a>
+        <div class="cta-container">
+            <div class="text-container">
+              <p class= "cta-text">Call to action! Its time!</p>
+              <p class="cta-subtext">Sign up for our product by clicking that button right over there!</p>
+            </div>  
+            <div class="btn-container">
+              <a href="" class="cta-button">Sign Up</a>
+            </div>
         </div>
     </section>
 
